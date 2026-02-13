@@ -2472,7 +2472,7 @@
 		)
 		(uuid "3b396d4e-458e-4919-ada7-391b7db4abc1")
 	)
-	(label "PB7"
+	(label "PA7"
 		(at 88.9 54.61 0)
 		(effects
 			(font
@@ -2582,7 +2582,7 @@
 		)
 		(uuid "72ee164b-774d-46b4-a4f4-b01ab8473b98")
 	)
-	(label "PB7"
+	(label "PA7"
 		(at 201.93 50.8 180)
 		(effects
 			(font
@@ -2602,7 +2602,7 @@
 		)
 		(uuid "7710f421-6165-4af2-826c-22a5924d25d4")
 	)
-	(label "PB5"
+	(label "PA5"
 		(at 215.9 38.1 180)
 		(effects
 			(font
@@ -2622,7 +2622,7 @@
 		)
 		(uuid "7fe45f3b-7335-48ac-bd3d-3145b6e169fa")
 	)
-	(label "PB6"
+	(label "PA6"
 		(at 189.23 50.8 180)
 		(effects
 			(font
@@ -2712,7 +2712,7 @@
 		)
 		(uuid "cacd358d-b684-4102-9b94-5db08f8dc238")
 	)
-	(label "PB5"
+	(label "PA5"
 		(at 88.9 49.53 0)
 		(effects
 			(font
@@ -2722,7 +2722,7 @@
 		)
 		(uuid "de020097-0b51-4cdb-aaec-8b1d65e2f1ec")
 	)
-	(label "PB6"
+	(label "PA6"
 		(at 88.9 52.07 0)
 		(effects
 			(font
@@ -5644,7 +5644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical_SMD"
 			(at 86.36 93.98 0)
 			(effects
 				(font
