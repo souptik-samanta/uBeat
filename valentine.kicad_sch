@@ -2472,7 +2472,7 @@
 		)
 		(uuid "3b396d4e-458e-4919-ada7-391b7db4abc1")
 	)
-	(label "PB7"
+	(label "PA7"
 		(at 88.9 54.61 0)
 		(effects
 			(font
@@ -2552,16 +2552,6 @@
 		)
 		(uuid "642d1204-5993-4be5-83bd-4b8df454b68d")
 	)
-	(label "PA8"
-		(at 77.47 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69eb2c97-aa89-4839-a584-dc38d492c0c7")
-	)
 	(label "PB8"
 		(at 27.94 69.85 180)
 		(effects
@@ -2582,7 +2572,7 @@
 		)
 		(uuid "72ee164b-774d-46b4-a4f4-b01ab8473b98")
 	)
-	(label "PB7"
+	(label "PA7"
 		(at 201.93 50.8 180)
 		(effects
 			(font
@@ -2602,7 +2592,7 @@
 		)
 		(uuid "7710f421-6165-4af2-826c-22a5924d25d4")
 	)
-	(label "PB5"
+	(label "PA5"
 		(at 215.9 38.1 180)
 		(effects
 			(font
@@ -2622,7 +2612,7 @@
 		)
 		(uuid "7fe45f3b-7335-48ac-bd3d-3145b6e169fa")
 	)
-	(label "PB6"
+	(label "PA6"
 		(at 189.23 50.8 180)
 		(effects
 			(font
@@ -2712,7 +2702,7 @@
 		)
 		(uuid "cacd358d-b684-4102-9b94-5db08f8dc238")
 	)
-	(label "PB5"
+	(label "PA5"
 		(at 88.9 49.53 0)
 		(effects
 			(font
@@ -2722,7 +2712,7 @@
 		)
 		(uuid "de020097-0b51-4cdb-aaec-8b1d65e2f1ec")
 	)
-	(label "PB6"
+	(label "PA6"
 		(at 88.9 52.07 0)
 		(effects
 			(font
@@ -2731,16 +2721,6 @@
 			(justify left bottom)
 		)
 		(uuid "e5f4782f-13fa-4f19-bc24-a0b20f2fbd55")
-	)
-	(label "PA8"
-		(at 190.5 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f46660f5-a133-4ffe-8b7e-78e91e31f60d")
 	)
 	(label "NRST"
 		(at 91.44 88.9 0)
@@ -2976,72 +2956,6 @@
 			(project "valentine"
 				(path "/0dba50cb-f61f-4dfb-9895-224e028720eb"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 203.2 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "029636c5-eeba-4109-8706-a3beed92f16d")
-		(property "Reference" "#PWR08"
-			(at 203.2 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "393431b9-0b2b-41b6-979e-592e2d1e8941")
-		)
-		(instances
-			(project "valentine"
-				(path "/0dba50cb-f61f-4dfb-9895-224e028720eb"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3739,74 +3653,6 @@
 			(project "valentine"
 				(path "/0dba50cb-f61f-4dfb-9895-224e028720eb"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_45deg")
-		(at 200.66 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1850f6ae-e7a2-4fd6-8951-a0a5b47e6d64")
-		(property "Reference" "R1"
-			(at 200.66 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.8K"
-			(at 200.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 200.66 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, rotated by 45°"
-			(at 200.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71a7428f-8d51-40e8-8ca9-110b5fb73b89")
-		)
-		(pin "2"
-			(uuid "ca07e6b6-577a-4570-b899-140e3ccc7d5b")
-		)
-		(instances
-			(project "valentine"
-				(path "/0dba50cb-f61f-4dfb-9895-224e028720eb"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5644,7 +5490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x02_P1.27mm_Vertical_SMD"
 			(at 86.36 93.98 0)
 			(effects
 				(font
@@ -5687,82 +5533,6 @@
 			(project ""
 				(path "/0dba50cb-f61f-4dfb-9895-224e028720eb"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 194.31 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9faaee81-afb1-4b4b-ba4c-7ead26f79a44")
-		(property "Reference" "D17"
-			(at 195.8975 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_STARTUP"
-			(at 194.31 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 194.31 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 194.31 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 194.31 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a601455a-da1d-4743-bd15-18a843015763")
-		)
-		(pin "1"
-			(uuid "a7168527-3845-4ca4-a301-d38a4ecaa43e")
-		)
-		(instances
-			(project "valentine"
-				(path "/0dba50cb-f61f-4dfb-9895-224e028720eb"
-					(reference "D17")
 					(unit 1)
 				)
 			)
